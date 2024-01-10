@@ -1,0 +1,10 @@
+[package]
+name = "reqwest-async-read"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3"
+reqwest = { version = "0.11", features = ["stream"] }
+tokio = "1"
+tokio-util = { version = "0.7", features = ["compat"] }
